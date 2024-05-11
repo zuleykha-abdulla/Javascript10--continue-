@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" alt="" /></a>
+      </div>
+      <!---navbar statr-->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">AJAX </a></li>
+          <li><a href="fetch.html">FETCH </a></li>
+          <li><a href="tenzim.html">then funksiyasi </a></li>
+          <li><a href="oxut.html">inputda faylin qeydi </a></li>
+          <li><a href="sekil.html">style tətbiqi </a></li>
+        </ul>
+      </nav>
+      <!---navbar finished-->
+      <!-----kecid menyusu -->
+
+      <div id="menu-toggle">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
+      <!------------------------ -->
+    </header>
+    <main>
+      <section>
+        <div>
+          <h3>Html və Javascript kodlarımız isə aşağıdakı şəkildə olacaq:</h3>
+        </div>
+
+        <div class="pre">
+          <pre>
+           
+fetch("5.txt")
+                .then((x) => x.json())
+                .then(function (g) {
+                  h2.innerHTML = g.ad;
+                  h2.style.color = g.color;
+                  h2.style.backgroundColor = g.background;
+                });
+              </pre>
+        </div>
+        <h1 id="h1"></h1>
+        <h2 id="h2"></h2>
+      </section>
+    </main>
+
+    <script src="./app/sekil.js"></script>
+  </body>
+</html>

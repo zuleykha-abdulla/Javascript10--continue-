@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" alt="" /></a>
+      </div>
+      <!---navbar statr-->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">AJAX </a></li>
+          <li><a href="fetch.html">FETCH </a></li>
+          <li><a href="tenzim.html">then funksiyasi </a></li>
+          <li><a href="oxut.html">inputda faylin qeydi </a></li>
+          <li><a href="sekil.html">style tətbiqi </a></li>
+        </ul>
+      </nav>
+      <!---navbar finished-->
+      <!-----kecid menyusu -->
+
+      <div id="menu-toggle">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
+      <!------------------------ -->
+    </header>
+    <main>
+      <section>
+        <div class="consul-div">
+          <div class="consul">
+            <p>
+              İlk olaraq Javascript faylımızın olduğu qovluqda “1.txt” adında
+              bir fayl yaradaq və içinə hər hansı biraz yazını yazaq, məsələn,
+              “salam” yazısı. Bundan sonra faylı yadda saxlayıb Html səhifəsində
+              aşağıdakı Javascript kodlarını yazaq və yadda saxlayaq.
+              <br />
+              Səhifəni işlətdikdə fayla yazdığımız salam yazısının
+              <span>konsolda</span> yazıldığını görəcəyik. Gördüyümüz kimi
+              <span>fetch funksiyası</span> ilə başqa fayldan məlumatı götürüb
+              səhifəmizdə istifadə edə bilirik. Burada <span>fetch</span> bizə
+              <span>promise</span> qaytarmaqdadır.
+              <span>Promise</span> mövzusunu növbəti dərslərdə daha yaxşı izah
+              edəcəyik. Api-dən məlumat gəldikdən sonra
+              <span>then</span> funksiyasının daxilində yerinə yetiriləcək
+              əməliyyatlar yazılır. Sadə olması üçün burada mətn fayllarından
+              istifadə edirik. Daha geniş saytlarda mətn yox, php və digər
+              fayllardan da istifadə edilə bilər. Yuxarıda yazdığımız
+              <span>then</span> daxilindəki <span>(x => x.text())</span> hissəsi
+              fayldakı mətnin mətn kimi götürülməsini təmin edir. İkinci
+              <span>then</span> daxilində isə funksiya yaradılır və fayldakı
+              mətn həmin funksiyanın parametri kimi olmuş olur
+            </p>
+          </div>
+          <div class="frame-div">
+            <div class="frame">
+              <img src="./img/Picture3.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <h1>İndi isə yuxarıda yazdığımızı düymə ilə birləşdirək.</h1>
+        <br />
+        <p>
+          Nəticədə düyməyə basdıqda fayldakı yazı h1 elementinin içərisinə
+          yazılmış olacaq
+        </p>
+        <button onclick="f()">Fayli oxu</button>
+        <h1 id="h1"></h1>
+      </section>
+    </main>
+    <script>
+      fetch("1.txt")
+        .then((x) => x.text())
+        .then(function (r) {
+          console.log(r);
+        });
+    </script>
+    <script src="./app/tenzim.js"></script>
+  </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" alt="" /></a>
+      </div>
+      <!---navbar statr-->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">AJAX </a></li>
+          <li><a href="fetch.html">FETCH </a></li>
+          <li><a href="tenzim.html">then funksiyasi </a></li>
+          <li><a href="oxut.html">inputda faylin qeydi </a></li>
+          <li><a href="sekil.html">style tətbiqi </a></li>
+        </ul>
+      </nav>
+      <!---navbar finished-->
+      <!-----kecid menyusu -->
+
+      <div id="menu-toggle">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
+      <!------------------------ -->
+    </header>
+    <p>
+      Yazdığımız səhifəyə bir ədəd input əlavə edərək istifadəçiyə istədiyi
+      faylı oxumaq imkanını yarada bilərik.
+    </p>
+    <br />
+    <input type="text" id="fayl" />
+    <br />
+    <br />
+    <br />
+    <button onclick="f()">Fayli göstər</button>
+    <h2 id="h2"></h2>
+    <p>
+      Burada inputa yaratdığımız faylın adını yazdıqda həmin faylın içərisindəki
+      yazı h2 elementinin içərisində yazılmış olacaq. Məsələn, inputa “2.txt”
+      yazdıqda içində “qeyd olunmus text” h2 elementinin içərisində yazılmış
+      olacaq. Yazılan adda fayl mövcud olmadıqda və ya adı səhv yazıldıqda xəta
+      yarana bilər.
+    </p>
+
+    <script src="./app/oxut.js"></script>
+  </body>
+</html>

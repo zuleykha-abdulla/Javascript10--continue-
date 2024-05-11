@@ -1,0 +1,5 @@
+{
+"ad":"Orxan",
+"color": "blue",
+"background": "pink"
+}

@@ -1,0 +1,20 @@
+Ajax nədir və necə işləyir?
+           Ajax, izahı ilə Asynchronous JavaScript və XML, Türk dilində XLM
+            qısaltması verilən addır. O, serverlərə müraciətlərin arxa planda
+            işlənməsini təmin edir və saytların asinxron olmadığı halda
+            çiçəklənməsinə kömək edir. Ajax nədir və necə işləyir sualını bu
+            şəkildə qısaca izah etmək olar. Ajax haqqında bütün ətraflı sual və
+            cavablara qalan məzmundan daxil ola bilərsiniz. Ağlınızda olan hər
+            hansı sual işarəsindən qaçına bilərsiniz. Ən əsas terminlərə görə
+            Ajax Javascript tərəfindən tanınan kodlaşdırma dili adlandırıla
+            bilər. Bütün bu xüsusiyyətlərlə yanaşı, Ajax sayəsində veb saytların
+            dinamik məzmunu idarə olunur və dinamik struktur quraraq istifadəçi
+            qarşılıqlı əlaqəsi təmin edilir. Adından da göründüyü kimi Xtensible
+            Markup Language HTML və XML-in oxşarlığıdır. Bu dil tez-tez istifadə
+            olunur və hər kəs tərəfindən bilinir. Bu vəziyyəti qısaca olaraq
+            aşağıdakı kimi izah etmək olar; HTML məlumatları təmsil etmək üçün
+            nəzərdə tutulub, XML isə məlumatları əhatə edir. JavaScript, Ajax və
+            ya XML olmasından asılı olmayaraq, onların hamısı asinxron işləyir.
+            Bu səbəbdən Ajax-ın istifadə olunduğu hər bir saytda səhifəni
+            yeniləmədən məlumat göndərmək və geri almaq mümkündür.
+          

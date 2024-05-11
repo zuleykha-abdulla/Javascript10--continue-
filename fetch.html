@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="./index.html"><img src="./img/logo.png" alt="" /></a>
+      </div>
+      <!---navbar statr-->
+      <nav id="menu">
+        <ul>
+          <li><a href="index.html">AJAX </a></li>
+          <li><a href="fetch.html">FETCH </a></li>
+          <li><a href="tenzim.html">then funksiyasi </a></li>
+          <li><a href="oxut.html">inputda faylin qeydi </a></li>
+          <li><a href="sekil.html">style tətbiqi </a></li>
+        </ul>
+      </nav>
+      <!---navbar finished-->
+      <!-----kecid menyusu -->
+
+      <div id="menu-toggle">
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+        <div class="hamburger"></div>
+      </div>
+      <!------------------------ -->
+    </header>
+    <main>
+      <section>
+        <div class="fetch">
+          <h1>FETCH</h1>
+          <p>
+            <span>Javascript</span>daxilində
+            <span>XMLHttpRequest</span> obyektindən istifadə edərək səhifə
+            yenilənmədən serverdən məlumatları çağıra və istifadə edə bilərik.
+            Müasir brauzerlərdə isə <span>Fetch API</span> istifadə edə bilərik.
+            <span>Fetch API</span> istifadə etdikdə yazılış daha sadə olduğu
+            üçün daha çox <span>Fetch API</span> yazılışına üstünlük verəcəyik.
+            Əlavə olaraq qeyd edək ki, <span>Fetch API</span> istifadəsi zamanı
+            <span>Liveserver</span> və ya <span>Xampp server</span> kimi bir
+            mühitdən istifadə etməyi unutmayın. Əks halda brauzerdə müəyyən
+            xətalarla qarşılaşa bilərsiniz
+          </p>
+        </div>
+        <div class="text">
+          <p>
+            3.txt fayli yaradiriq və tələb olunan mətni orda yerləşdirik. Bunun
+            üstün cəhəti ondan ibarətdir ki, mətni teqlər arasinda yazmaga
+            ehtiyac olmur.
+          </p>
+        </div>
+        <div class="frame">
+          <img src="./img/Picture1.jpg" alt="" />
+        </div>
+        <br />
+        <button onclick="f()">Fayli oxu</button>
+        <br />
+        <h1 id="h1"></h1>
+      </section>
+    </main>
+
+    <script src="./app/fetch.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+ Burada inputa yaratdığımız faylın adını yazdıqda həmin faylın içərisindəki
+      yazı h2 elementinin içərisində yazılmış olacaq. Məsələn, inputa “2.txt”
+      yazdıqda içində “qeyd olunmus text” h2 elementinin içərisində yazılmış
+      olacaq. Yazılan adda fayl mövcud olmadıqda və ya adı səhv yazıldıqda xəta
+      yarana bilər.
